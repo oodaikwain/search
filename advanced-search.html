@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Google Advanced Search</title>
+        <link rel="icon" href="icon.png">
+        <link rel="stylesheet" href="astyle.css">
+    </head>
+    <body>
+        <header>
+            <a href="index.html" title="Go to Google Home"><img src="logo.png" alt="Google Logo"></a>
+            <ul>
+                <li><a href="index.html">Google Search</a></li>
+            </ul>
+        </header>
+        <main>
+            <h2 style="padding: 20px;">Advanced Search</h2>
+            <form action="https://www.google.com/search?" method="GET">
+                <div id="heading">
+                    <h3>Find Pages With...</h3>
+                    <h3 style="margin-right: 98px;">To do this in the search box.</h3>
+                </div>
+
+                <div>
+                    <label class="left">all these words:</label>
+                    <input type="text" name="as_q">
+                    <label class="right">Type the important words: tri-colour rat terrier</label>
+                </div>
+
+                <div>
+                    <label class="left">this exact word or phrase:</label>
+                    <input type="text" name="as_epq">
+                    <label class="right">Put exact words in quotes: "rat terrier"</label>
+                </div>
+
+                <div>
+                    <label class="left">any of these words:</label>
+                    <input type="text" name="as_oq">
+                    <label class="right">Type OR between all the words you want: miniature OR standard</label>
+                </div>
+
+                <div>
+                    <label class="left">none of these words:</label>
+                    <input type="text" name="as_eq">
+                    <label class="right">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</label>
+                </div>
+
+                <div id="submit">
+                    <button>Advanced Search</button>
+                </div>
+            </form>
+        </main>
+        <footer>
+            <ul>
+                <li><a href="https://ads.google.com/intl/en_ca/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+                <li><a href="https://smallbusiness.withgoogle.com/intl/en_ca/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=CA">Business</a></li>
+                <li class="fleft"><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
+            </ul>
+            <ul>
+                <li><a href="https://policies.google.com/privacy?hl=en-CA&fg=1">Privacy</a></li>
+                <li><a href="https://policies.google.com/terms?hl=en-CA&fg=1">Terms</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #333333;
+}
+
+li {
+    list-style-type: none;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+/* Style the header section */
+
+
+header ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header ul li {
+    margin-right: 60px;
+}
+
+
+/* Style the main section */
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    padding-top: 100px;
+    margin-bottom: 40px;;
+    width: 272px;
+    height: 92px;
+}
+
+#sub {
+    display: flex;
+    justify-content: center;
+}
+
+#sub input, #subb {
+    margin: 30px 20px 0px 20px;
+    flex-basis: 140px;
+    border-radius: 0.5em;
+    height: 30px;
+    border-color: #f1f1f1;
+    background-color: #f1f1f1;
+    color: #333333;
+}
+
+#sub input:hover, #subb:hover {
+    border-color: gray;
+}
+
+button:hover span {
+    display:none;
+}
+
+button:hover:before {
+    content:"I'm Feeling Doodly!";
+}
+
+#search {
+    cursor: text;
+    height: 40px;
+    width: 500px;
+    border-radius: 5rem;
+    border-color: #f1f1ff;
+}
+
+#imgsearch:hover {
+    border-color: rgb(165, 162, 162);
+}
+
+/* Style the footer section */
+
+footer {
+    flex-basis: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f0;
+    border-top: 1px solid #e6e6e6;
+}
+
+footer ul {
+    margin: 0;
+    display: flex;
+}
+
+footer ul li {
+    padding: 5px;
+    margin-right: 20px;
+}
+
+footer a {
+    color: #595959;
+}
